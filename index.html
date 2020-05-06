@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+   <header>
+        <h2 class="logo">  QUIZ APP </h2>
+   </header>
+   <div id="scoreContainer">
+        <div><p>Number of Correct Answers:&nbsp;<span id="scores"></span></p></div>     
+   </div> 
+   <div class="congratulations">
+       <p class="bg excellent hide"> Hurray!!! Excellent. Your total Score is: <span class="totalscore1"> </span></p>
+       <p class="bg good hide"> You did great. Your total Score is: <span class="totalscore2"> </span></p>
+       <p class="bg average hide"> On the average. Your total Score is: <span class="totalscore3"> </span></p>
+       <p class="bd poor hide"> Poor, you can do better Your total Score is: <span class="totalscore4"> </span></p>
+   </div>
+   <div class="Qquestion"><strong>Question&nbsp;&nbsp;<span class="current">1</span>&nbsp;/&nbsp;<span class="total">5</span></strong> </div>
+   <div id="questionContainer">
+    <div id="question1" class="questions">
+        <p class="question"> What is the capital of Niger State?</p>
+        <ul id="answers">
+            <li class="option wrong"> Polaris  </li>
+            <li class="option correct">Polaris  </li>
+            <li class="option wrong"> Polaris  </li>
+        </ul>
+        <div id="btnContainer">
+            <button class="btn nextBtn"> Next </button>
+        </div>
+    </div>
+    <div id="question2" class="questions hide">
+        <p class="question"> What is the capital of Niger State?</p>
+        <ul id="answers">
+            <li class="wrong"> Polaris  </li>
+            <li class="correct"> Polaris  </li>
+            <li class="wrong"> Polaris  </li>
+        </ul>
+        <div id="btnContainer">
+            <button class="btn nextBtn"> Next </button>
+        </div>
+    </div>
+    <div id="question3" class="questions hide">
+        <p class="question"> What is the capital of Niger State?</p>
+        <ul id="answers">
+            <li class="wrong"> Polaris  </li>
+            <li class="correct"> Polaris  </li>
+            <li class="wrong">Polaris  </li>
+        </ul>
+        <div id="btnContainer">
+            <button class="btn nextBtn"> Next </button>
+        </div>
+    </div>
+    <div id="question4" class="questions hide">
+        <p class="question"> What is the capital of Niger State?</p>
+        <ul id="answers">
+            <li class="wrong"> Polaris  </li>
+            <li class="correct"> Polaris  </li>
+            <li class="wrong"> Polaris  </li>
+        </ul>
+        <div id="btnContainer">
+            <button class="btn nextBtn"> Next </button>
+        </div>
+    </div>
+    <div id="question5" class="questions hide">
+        <p class="question"> What is the capital of Niger State?</p>
+        <ul id="answers">
+            <li class="wrong"> Polaris  </li>
+            <li class="correct"> Polaris  </li>
+            <li class="wrong"> Polaris  </li>
+        </ul>
+        <div class="btnTotalScore ">
+            <button class="btn" id="totalScore"> Total Score </button>
+        </div>
+        <div class="btnTryAgain hide">
+            <button class="btn" id="tryAgain"> Try Again</button>
+        </div>
+    </div>
+
+   </div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
