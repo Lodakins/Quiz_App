@@ -41,6 +41,10 @@ body,html{
 }
 #answers li{
   padding: 10px;
+  margin-bottom: 14px;
+  box-shadow: 1px -1px 11px 0px rgba(0,0,0,0.32);
+-webkit-box-shadow: 1px -1px 11px 0px rgba(0,0,0,0.32);
+-moz-box-shadow: 1px -1px 11px 0px rgba(0,0,0,0.32);
 }
 .nextBtn,#totalScore,#tryAgain{
     margin-right: 200px;
@@ -83,12 +87,22 @@ body,html{
     font-weight: 600;
 }
 
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) { 
+    .nextBtn,#totalScore,#tryAgain{
+        margin-right: 10px !important;
+    }
+    .Qquestion strong{
+        margin-left: 25px !important;
+    }
+  #scoreContainer p {
+       padding-left: 30px !important; 
+  }
+}
 
 
-@media (max-width: 767.98px) { ... }
+@media (max-width: 767.98px) {  }
 
 
-@media (max-width: 991.98px) { ... }
+@media (max-width: 991.98px) {  }
 
-@media (max-width: 1199.98px) { ... }
+@media (max-width: 1199.98px) { }
